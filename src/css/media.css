@@ -1,0 +1,339 @@
+@media(max-width:1300px) {
+  .announcement-slider .owl-nav .owl-prev {
+    margin-left: -20px;
+  }
+
+  .announcement-slider .owl-nav .owl-next {
+    margin-right: -20px;
+  }
+}
+
+@media(max-width:1200px) {
+  .announcement-slider .owl-nav {
+    display: none;
+  }
+
+  .announcement-slider .owl-nav .owl-prev {
+    margin-left: 0px;
+  }
+
+  .announcement-slider .owl-nav .owl-next {
+    margin-right: 0px;
+  }
+
+
+
+}
+
+@media(max-width:767px) {
+  .announcement-slider .news-item {
+    display: block;
+    text-align: center;
+  }
+
+  .announcement-slider .news-item span {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+}
+
+
+
+@media screen and (min-width: 769px) {
+  .about-us {
+      align-items: flex-start; /* Align items at the start */
+  }
+  .image-container {
+      height: 300px; /* Set a fixed height for the image container */
+      overflow: hidden; /* Hide overflow to prevent stretching */
+  }
+  .about-us img {
+      width: 33%;
+      object-fit: cover; /* Maintain aspect ratio */
+  }
+}
+
+
+
+
+
+@media(max-width:576px) {
+  .result-annoucment {
+    margin-top: 30px
+  }
+
+  .box {
+    margin-top: 1.5em;
+  }
+
+  .navbar-brand img {
+    width: 240px;
+    height: 40px;
+    margin-left: 5px;
+  }
+
+  .imp-space {
+    margin-top: 15vh;
+  }
+
+  .top-event-container {
+    width: 93%;
+  }
+
+
+  .event-container-2 {
+    width: 90%;
+  }
+
+  #event-text {
+    font-size: 13.6px;
+  }
+
+  .event ul li {
+    font-size: 12px;
+    margin-left: -15px;
+  }
+
+  .campus-news .c-news-item {
+    margin-top: -10px;
+  }
+
+  .campus-news h2 {
+    font-weight: 600;
+    font-size: 13.6px;
+    margin-top: 0%;
+  }
+
+  .campus-news h6 {
+    font-weight: 500;
+    font-size: 10.5px;
+    color: red;
+    margin-top: -5px;
+  }
+
+  .campus-news p {
+    font-size: 10.9px;
+    margin-top: -5px;
+  }
+
+
+  .event-date {
+    font-size: 13px;
+  }
+
+  .gallery-container {
+    width: 90%;
+  }
+
+  .gallery-section {
+    margin-top: 12%;
+  }
+
+  #online-services {
+    margin-bottom: 18%;
+  }
+
+  #chairman-box {
+    margin-top: 18%;
+  }
+
+  .gallery-header {
+    background-color: #00aed9;
+    margin-bottom: 5%;
+
+  }
+
+  .lightbox-content img {
+    /* width: 100%; */
+    height: 60%;
+    object-fit: cover;
+  }
+
+  .lightbox-prev,
+  .lightbox-next {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 7px;
+    top: 25%;
+    cursor: pointer;
+  }
+
+  .lightbox-content {
+    top: 15%;
+  }
+
+
+  .imp-notice {
+    /* background-color: #f58025; */
+    width: 25%;
+  }
+
+  .imp-notice h6 {
+    font-size: 12px;
+  }
+
+  .head-marquee {
+    height: 1.5rem;
+  }
+
+  #head-marquee {
+    font-size: 10px;
+  }
+
+  .marquee-head {
+    font-size: 9.1px;
+  }
+
+  .donate-div {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .navbar-nav li {
+    margin-right: 15px;
+  }
+
+
+  /* OUR CHAIRMAN MEDIA  */
+  .chairman-li .event-para h4 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .chairman-li .event-para h5 {
+    font-size: 12px;
+  }
+
+  .chairman-li .event-para h6 {
+    font-size: 11px;
+  }
+
+
+  /* FOOTER SECTION  */
+
+  .cta-text h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+
+  .cta-text span {
+    color: #757575;
+    font-size: 13px;
+  }
+
+  .footer-widget ul li a {
+    font-size: 15px;
+  }
+
+  .footer-text p {
+    font-size: 13px;
+    color: #7e7e7e;
+    line-height: 28px;
+  }
+
+
+  .copyright-text p {
+    margin: 0;
+    font-size: 12px;
+  }
+
+  .subscribe-form input {
+    padding: 10px 22px;
+  }
+
+  .subscribe-form button {
+    padding: 10px 20px;
+  }
+
+
+  /* ABOUT US MEDIA  */
+  .about-para {
+    order: 2; /* Paragraph appears after image on mobile */
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+  .about-us {
+    margin-top: 3em;
+    margin-bottom: 1em;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-us div {
+    width: 85%;
+    line-height: 50px;
+    font-size: 18px;
+  }
+
+  .about-us h4 {
+    font-size: 16px;
+    color: red;
+    font-weight: 500;
+  }
+  .heading {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+
+  .about-us p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding-right: 30px;
+    line-height: 23px;
+    font-weight: 200;
+  }
+
+  .about-us img {
+    
+    width: 85%;
+    margin-bottom: 0px;
+    /* Adjust as needed */
+  }
+
+  .short-text {
+    max-height: 250px;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+.expanded {
+    max-height: 1000px !important;
+    transition: max-height 0.5s ease;
+}
+
+.read-more-link{
+  font-size: 16px;
+}
+
+
+
+}
+
+@media(max-width:320px) {
+  .navbar-brand img {
+    width: 185px;
+    height: 30px;
+    margin-left: 5px;
+  }
+
+  .imp-space {
+    margin-top: 14vh;
+  }
+
+}
+
+
+
+@media(min-width:767px) {
+  .box {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+
+}
